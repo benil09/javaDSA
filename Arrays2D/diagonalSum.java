@@ -12,6 +12,7 @@ public class diagonalSum {
         // }
 
         //optimized code
+        System.out.println(matrix.length);
         for(int i=0;i<matrix.length;i++){
             //pd sum
             sum=sum+matrix[i][i];

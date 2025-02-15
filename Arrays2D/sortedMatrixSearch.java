@@ -6,7 +6,8 @@ public class sortedMatrixSearch {
         while(row < matrix.length && col>=0){
             if(matrix[row][col]==key){
                 System.out.println("the key is found at index ("+row+","+col+")" );
-                
+                System.out.println("Searching for key: " + key);
+System.out.println("Matrix dimensions: " + matrix.length + "x" + matrix[0].length);
                 return true;
                 }
                 else if(matrix[row][col]>key){
